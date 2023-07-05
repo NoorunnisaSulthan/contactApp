@@ -1,0 +1,157 @@
+
+/* for header.js */
+.heading{
+    text-align: center;
+    transform: translateY(30px);
+    color: rgb(227, 220, 220);
+  
+    
+}
+h2{
+    font-family: 'Martian Mono', monospace;
+}
+
+/* for contactList.js and contactcard */
+.contactList{
+    margin-top: 5rem;
+    width: 50rem;
+    align-items: center;
+    position: relative;
+    left:15rem;
+  
+}
+.cheading{
+    color: bisque;
+    font-size: 20px;
+    text-align: center;
+}
+.addContactButton{
+    font-size: 30px;
+   
+margin-right:25rem ;
+width: 2.7rem;
+height: 2.5rem;
+margin-bottom: 40px;
+border-width: .5px;
+border-radius: 30px;
+border-color: rgb(244, 240, 240);
+background-color: rgb(58, 54, 54);
+color: antiquewhite;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.addContactButton:hover {
+    background-color: #1c3553;
+    border-width: 2px;
+    transform: scale(1.1);
+  }
+.column{
+    transform: translateY(30px);
+    display: flex;
+
+}
+.prompt{
+width: 22rem;
+height: 2.5rem;
+border-radius: 10px;
+transform: translateY(-2px);
+color: antiquewhite;
+border-width: .7px;
+border-color: rgb(244, 240, 240);
+background-color: rgb(58, 54, 54);
+}
+.searchbar{
+    display: flex;
+    
+}
+.search{
+    transform: translateX(-15px);
+    color: antiquewhite;
+    
+}
+.contactCard{
+    background-color: rgba(233, 234, 227, 0.6);
+    display: flex;
+    height:70px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top:30px ;
+}
+.userImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.nheader{
+    font-size: 17px;
+    color: black;
+}
+.icon{
+    display: flex;
+    position: absolute;
+    margin-left: 44rem;
+  
+
+}
+.trashIcon{
+    font-size: 23px;
+    margin-left: 15px;
+
+}
+.editIcon{
+   font-size: 25px;
+  color: rgb(55, 94, 124);
+}
+
+.searchIcon{
+    font-size: 20px;
+    transform: translateX(-9px);
+  
+}
+/* 
+add contacts styling */
+.head{
+    color: antiquewhite;
+}
+.addContacts{
+    width: 50rem;
+    border-color: antiquewhite;
+    border-radius: 2px;
+    background-color: rgb(28, 53, 83,.6);
+    padding: 30px;
+     position: relative;
+    left:15rem;
+    top: 5rem;
+
+}
+.label {
+color: antiquewhite;
+
+
+}
+
+.fname{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.addButton{
+    width: 5rem;
+    height: 2.6rem;
+    border-width: .5px;
+border-radius: 30px;
+border-color: rgb(244, 240, 240);
+background-color: rgb(58, 54, 54);
+color: antiquewhite;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.addButton:hover {
+    background-color: #1c3553;
+    border-width: 2px;
+    transform: scale(1.1);
+  }
+ 
