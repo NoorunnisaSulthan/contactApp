@@ -22,7 +22,7 @@ The Contact App is built using the following technologies:
 
 
 1. Clone the repository to your local machine.
-2. Navigate to the project directory: `cd task-manager`.
+2. Navigate to the project directory: `cd contacts-application`.
 3. Install the dependencies: `npm install`.
 
 4. Start the React development server:
